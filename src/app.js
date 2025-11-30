@@ -54,6 +54,7 @@ app.get('/', (req, res) => {
 // API Routes
 app.use('/api/categories', require('./modules/categories/category.route'));
 app.use('/api/products', require('./modules/products/product.route'));
+app.use('/api/auth', require('./modules/users/user.route'));
 
 
 
